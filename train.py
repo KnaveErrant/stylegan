@@ -184,7 +184,7 @@ def main():
     kwargs.submit_config.run_dir_root = dnnlib.submission.submit.get_template_from_path(config.result_dir)
     kwargs.submit_config.run_dir_ignore += config.run_dir_ignore
     kwargs.submit_config.run_desc = desc
-    dnnlib.submit_run(**kwargs)
+    #dnnlib.submit_run(**kwargs)
 
 #----------------------------------------------------------------------------
 
